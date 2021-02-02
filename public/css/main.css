@@ -1,0 +1,66 @@
+/************************************************
+*      Navbar                                   *
+*********************************************** */
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: constanian, serif;
+}
+
+.avatar-xs {
+    width: 25px;
+    height: 25px;
+}
+
+.avatar-md {
+    width: 200px;
+    height: 200px;
+}
+
+.new-font {
+    font-family: "verdana", serif !important;
+}
+
+.bg-green {
+    background: rgb(56, 241, 195);
+}
+
+/************************************************
+*      Navbar                                   *
+*********************************************** */
+.navbar {
+    background: rgb(45, 46, 46);
+}
+
+.pro {
+    color: rgb(56, 241, 195);
+}
+
+.navbar-nav .active {
+    border: 1px solid rgb(56, 241, 195);
+    border-radius: 10px;
+}
+
+.sub-active {
+    background: rgb(56, 241, 195);
+    border-radius: 10px;
+    padding: 10px;
+}
+/************************************************
+*      Navbar                                   *
+*********************************************** */
+.home {
+    background: url(../images/social-media-hero.svg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-size: 19px;
+    overflow-y: hidden;
+}
+
+.home a {
+    color: rgb(65, 120, 238);
+    font-weight: bold;
+}
